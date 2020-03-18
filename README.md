@@ -15,12 +15,13 @@ Developed by Alejandro Beltran and Laura Werthmann
 4. Navigate to inisght/spiders/ and open Crime_spider.py. This is the script that does the crawling. You can see the xpaths we are navigating to in order to extract the contents. In this test version the number of pages to scrape is reduced to the first three, but you can change this by change npages to your desired #.
 5. Open file inisght/settings.py and change the USER_AGENT to your own identifiable information. In this file I have added a 2 second delay between pages, to avoid overwhelming the website, as well as the AUTOTHROTTLE feature which slows down the spider if its putting too much strain on the website. I have also enabled the LOG_LEVEL = 'INFO' feature which captures the print out of the script to avoid overwhelming your computer.
 6. After making your edits, we are ready to run the spider, in your anaconda terminal run the below command:
+```python
   scrapy crawl Crime_spider -o file_name.csv
   a. the scrapy command tells python we are using scrapy,
   b. the crawl command tells scrapy we are going to use a spider,
   c. the Crime_spider is the script we are using, aka the spider,
   d. -o is the output and the file_name.csv is the desired filename in csv format.
-
+```
 7. Once it has concluded, check the insight/ folder for the csv and check out the output. Rember that excel struggles with utf-8 encoding, so don't be alarmed if the content column has funny characters.
 Happy scraping!
 
