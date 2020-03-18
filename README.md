@@ -35,7 +35,11 @@ https://github.com/mGalarnyk/Python_Tutorials/tree/master/Scrapy
 
 Notes:
 
-3/17/20: For each article, the crawler is extracting the content, in the process I remove white space and try to preserve paragraph structures. Insight crime splits the text for links within paragraphs into its own html and this is breaking the paragraph structure. So it will have a paragraph saying 20 people died and if there is a link
+3/17/20: For each article, the crawler is extracting the content, in the process I remove white space and try to preserve paragraph structures. Insight crime splits the text for links within paragraphs
+into its own html and this is breaking the paragraph structure. So it will have a paragraph saying 20 people died and if there is a link
+
 it breaks
+
 like this until it either finds another link
+
 or gets to the end of the paragraph. I would suggest we combine all text into a single string to avoid this problem but I know Eventus ID cares about paragraph strcuture so I left it this way.
