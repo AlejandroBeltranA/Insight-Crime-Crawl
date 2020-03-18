@@ -12,7 +12,7 @@ Developed by Alejandro Beltran and Laura Werthmann
   ```
 2. Activate the environment
 3. Download the insight folder from github and cd into the folder, you should be at the same level as scrapy.cfg.
-4. Navigate to inisght/spiders/ and open Crime_spider.py. This is the script that does the crawling. You can see the xpaths we are navigating to in order to extract the contents. In this test version the number of pages to scrape is reduced to the first three, but you can change this by change npages to your desired #.
+4. Navigate to inisght/spiders/ and open Crime_spider.py. This is the script that does the crawling. You can see the xpaths we are navigating to in order to extract the contents. In this test version the number of pages to scrape is reduced to the first three, but you can change this by changing "npages" to your desired #.
 5. Open file inisght/settings.py and change the USER_AGENT to your own identifiable information. In this file I have added a 2 second delay between pages, to avoid overwhelming the website, as well as the AUTOTHROTTLE feature which slows down the spider if its putting too much strain on the website. I have also enabled the LOG_LEVEL = 'INFO' feature which captures the print out of the script to avoid overwhelming your computer.
 6. After making your edits, we are ready to run the spider, in your anaconda terminal run the below command:
 ```python
