@@ -17,11 +17,12 @@ Developed by Alejandro Beltran and Laura Werthmann
 6. After making your edits, we are ready to run the spider, in your anaconda terminal run the below command:
 ```python
   scrapy crawl Crime_spider -o file_name.csv
+```
   a. the scrapy command tells python we are using scrapy,
   b. the crawl command tells scrapy we are going to use a spider,
   c. the Crime_spider is the script we are using, aka the spider,
   d. -o is the output and the file_name.csv is the desired filename in csv format.
-```
+
 7. Once it has concluded, check the insight/ folder for the csv and check out the output. Rember that excel struggles with utf-8 encoding, so don't be alarmed if the content column has funny characters.
 Happy scraping!
 
