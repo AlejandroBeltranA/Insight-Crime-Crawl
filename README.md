@@ -29,7 +29,9 @@ Happy scraping!
 P.S. I built this spider using the following tutorials, check them out if you want more detailed info of the steps and process.
 
 https://docs.scrapy.org/en/latest/intro/tutorial.html
+
 https://towardsdatascience.com/using-scrapy-to-build-your-own-dataset-64ea2d7d4673
+
 https://github.com/mGalarnyk/Python_Tutorials/tree/master/Scrapy
 
 
