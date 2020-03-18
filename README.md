@@ -23,7 +23,7 @@ Developed by Alejandro Beltran and Laura Werthmann
 - c. the Crime_spider is the script we are using, aka the spider,
 - d. -o is the output and the file_name.csv is the desired filename in csv format.
 
-7. Once it has concluded, check the insight/ folder for the csv and check out the output. Rember that excel struggles with utf-8 encoding, so don't be alarmed if the content column has funny characters.
+7. Once it has concluded, check the insight/ folder for the csv and check out the output. Remember that excel struggles with utf-8 encoding, so don't be alarmed if the content column has funny characters.
 Happy scraping!
 
 P.S. I built this spider using the following tutorials, check them out if you want more detailed info of the steps and process.
